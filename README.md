@@ -9,11 +9,15 @@
 * 展示上传的文件在页面
 * 可以管理文件
 * 文件下载
+* 文件上传类型统计展示
 * 分享文件给别人
 * 在线浏览
 * 退出登录
 ### 页面展示
-
+![image](https://github.com/cainiaoyige01/tingyu-cloud/blob/main/static/img/1.png)
+![image](https://github.com/cainiaoyige01/tingyu-cloud/blob/main/static/img/2.png)
+![image](https://github.com/cainiaoyige01/tingyu-cloud/blob/main/static/img/3.png)
+![image](https://github.com/cainiaoyige01/tingyu-cloud/blob/main/static/img/5.png)
 
 ### 分片上传、断点续传
 文件过大时，上传文件需要很长时间，且中途退出将导致文件重传。
@@ -28,7 +32,7 @@
 
 ### 链接分享
 后端会生成一条可访问的链接以及提取码！就是类似于百度网盘那种：
-链接：
+链接：http://127.0.0.1:9090/file/share?f=3ce70d5347e0b44ded78e20c20659585 提取码：gTDN
 
 ### 项目启动
 只需要修改yaml文件中配置：
