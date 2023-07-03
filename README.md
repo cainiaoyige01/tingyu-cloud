@@ -1,7 +1,7 @@
 # tingyu-cloud
 一个仿百度网盘的分布式存储！仿百度云，支持断点续传和秒传。
 主要使用的技术：
-  Gin + Gorm + Redis + OSS + Viper + docker
+  Gin + Gorm + Redis + OSS + Viper + Logrus + docker
 
 ### 功能支持：
 * QQ扫码登录
