@@ -1,0 +1,37 @@
+#运行级别
+runMode: debug
+
+#页面配置
+app:
+  page_size: 10 #页面条数
+  location: "D://download" #文件下载存放地址
+
+#redis 相关配置信息
+redis:
+  host: 127.0.0.1
+  port: 6379
+
+# 数据库的配置信息
+database:
+  type: mysql
+  user: root
+  password: root
+  host: 127.0.0.1
+  port: 3306
+  name: niuzai
+
+# QQ配置信息
+qq:
+  app_id: "101827468"
+  redirect_uri: "http://127.0.0.1:9090/callbackQQ"
+  app_key: "0d2d856e48e0ebf6b98e0d0c879fe74d"
+
+# 阿里云OOS的配置信息
+oos:
+  #  这是一对秘钥
+  access_key_id: "LTAI5tHAYMTqbF8XRVQEHVRj"
+  access_key_secret: "zmiQB9MzRzD81XEz0LnewpebnsidCs"
+  # 这是oos访问内网的域名
+  end_point: "https://oss-cn-beijing.aliyuncs.com"
+  # 这是我们创建bucket的名字
+  bucket_name: "banshantingyu"
